@@ -78,6 +78,7 @@ class SinglyLinkedList {
 	// Catch Loops in Two Passes
 	// O(n) time complexity
 	// http://javarevisited.blogspot.com/2013/05/find-if-linked-list-contains-loops-cycle-cyclic-circular-check.html
+	// http://stackoverflow.com/questions/24794467/in-tortoise-and-hare-algorithm-why-we-make-the-hare-make-2-step-forwards-and-ch
 	public boolean hasLoopBestSolution(Node head) {
 		Node fast = head;
 		Node slow = head;
